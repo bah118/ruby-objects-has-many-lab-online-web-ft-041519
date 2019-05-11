@@ -26,10 +26,6 @@ class Author
   
   def self.post_count
     Post.all.length 
-    
-    # count = 0 
-    # @@all.each{|author| count += author.posts.length}
-    # count 
   end
 
 end
